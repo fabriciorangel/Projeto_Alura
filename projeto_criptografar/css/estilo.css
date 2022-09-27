@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #E5E5E5;
+}
+header{
+    margin-top: 10px;
+}
+section{
+    width: 90%;
+    margin: 10px auto;
+}
+textarea{
+    resize: none;
+    border: none;
+    outline: none;
+    font-size: 1.5em;
+    width: 85%;
+}
+/*******************************************************
+ ************  TEXTO ENTRADA  *****************/
+.entrada{
+    display: inline-block;
+    width: 60%;
+}
+#txte{
+    margin: 2% 6%;
+    padding: 3%;
+    background: transparent;
+}
+.entrada span{
+    display: block;
+    background: url(../img/Vector.png) no-repeat left center;
+    text-indent: 10px;
+    margin-left: 8%;
+    padding: 1%;
+    opacity: 0.6;
+} 
+/*******************************************************
+ ************  TEXTO SAIDA  *****************/   
+.background-saida{
+    display: inline-block;
+    background-color: rgb(255, 253, 253);
+    width: 25%;
+    height: 700px;
+    border-radius: 32px;
+    position: absolute;
+    top: 20px;
+    right: 100px;
+}
+#txts{
+    margin: 10px 7%;
+    padding: 3%;
+    cursor: default;
+}
+.hide{
+    display: none;
+}
+
+/*******************************************************
+ ************  BACKGROUND SEM RESULTADO  *****************/   
+.img-saida{
+    width: 90%;
+    margin: 10% 0 10% 0;
+}
+#back-saida{
+    width: 90%;
+    margin: 0 auto;
+    cursor: default;
+}
+#back-saida h2{
+    width: 70%;
+    margin: 2% auto;
+    text-align: center;
+}
+#back-saida p{
+    width: 70%;
+    margin: 1% auto;
+    text-align: center;
+    font-size: 1.2em;
+    opacity: 0.5;
+}
+/*******************************************************/   
